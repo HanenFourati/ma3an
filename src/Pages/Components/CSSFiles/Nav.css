@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Aref+Ruqaa:wght@700&display=swap');
+.Navbar-Style{
+    font-family: 'Raleway', sans-serif;
+    color: #959595;
+}
+.Navbar-One-Style{
+    display: flex;
+    margin-top: -1%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fc7b53;
+    color: white;
+    font-size: 25px;
+} 
+.Navbar-Part-One-Style{
+    width: 20%;
+    padding: 1.2% 0.2%;
+}
+.Navbar-Two-Logo-name-Style{
+    color: #202020;
+    font-size: 25px;
+    font-family: 'Amiri', serif;
+}
+.Navbar-Two-Style{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.Navbar-Two-Logo-Style{
+   font-size: 18px;
+}
+.Navbar-Two-Logo-Div-Style{
+   width: 40%;
+}
+.Navbar-Two-Menu-Style{
+   width: 40%;
+}
+.Navbar-Links-Style{
+    text-decoration: none;
+    color: #959595;
+    padding: 3%;
+}
+.Navbar-Links-Style:hover{
+   text-decoration: underline;
+}
+.typewriter  {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 2px solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin:  0 auto ; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 2px; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+/**********************************/
+.navBar-Small-Screen {
+   width: 100%;
+   background-color: white;
+   color: #333;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   display: none;
+   height: 0;
+ }
+ .Navs-display-direction-Small-Screen {
+   display: flex;
+   flex-direction: column;
+   float: right;
+ }
+ .button-decoration-Small-Screen {
+   color:  rgb(3, 3, 3);
+   font-size: large;
+   background: transparent;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   padding-right: 30px;
+   padding-top: 15px;
+ }
+ .links-Small-Screen {
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  }
+  .show-nav-Small-Screen {
+    height: auto;
+  }
+  
+@media screen and (max-width: 992px) {
+   .Navbar-One-Style{
+       display: flex;
+       flex-direction: column;
+   } 
+   .Navbar-Part-Two-Style{
+       display: flex;
+       flex-direction: column;
+       width: auto;
+   }
+   .navBar-Small-Screen {
+       display: inline;
+   }
+   .navBar-Big-Screen{
+       display: none;
+   }
+ }

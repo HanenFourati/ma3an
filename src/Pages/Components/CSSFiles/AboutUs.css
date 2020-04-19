@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Aref+Ruqaa:wght@700&display=swap');
+.About-Style{
+    display: flex;
+    flex-direction: row;
+    background-color: #202020;
+    color: white;
+}
+.About-Intro-Style{
+    padding: 2%;
+    width: 50%;
+}
+.About-Intro-Style > h1{
+    font-family: 'Amiri', serif;
+    color:rgb(248, 167, 37);
+}
+.About-Intro-Style > p{
+    padding: 2%;
+}
+.About-Fields-Style{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.About-Fields-imgs-Style{
+    position: relative;
+}
+.hover-button--on{
+    position: absolute;
+    display: none;
+}
+.hover-button .hover-button--on,
+.hover-button:hover .About-Fields-imgs-Style {
+    opacity: 0.8;
+}
+
+.hover-button:hover .hover-button--on {
+  display: inline;
+  opacity: 0.9;
+  color: rgb(248, 167, 37);
+  font-family: 'Amiri', serif;
+  font-size: 35px;
+}
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
